@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             BasicGitTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "First change in feature branch",
+                        name = "Welcome to the main branch",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
