@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
 
-                        name = "This is a new feature",
+                        name = "This is a new feature again",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
