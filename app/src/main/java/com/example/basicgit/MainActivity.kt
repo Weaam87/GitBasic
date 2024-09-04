@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
 
-                        name = "Hello from both branches",
+                        name = "Welcome to the main branch",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
